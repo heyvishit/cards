@@ -1,6 +1,7 @@
 import ProfileCard from "./cards/ProfileCard";
 import ProductCard from "./cards/ProductCard";
 import PricingCard from "./cards/PricingCard";
+import MusicCard from "./cards/MusicCard";
 
 
 function Cards() {
@@ -24,6 +25,12 @@ function Cards() {
         <div className="flex flex-col items-center gap-4">
           <h2 className="text-2xl font-bold">Pricing Card</h2>
           <PricingCard />
+        </div>
+
+        {/*>Music Card */}
+        <div className="flex flex-col items-center gap-4">
+          <h2 className="text-2xl font-bold">Music Card</h2>
+          <MusicCard />
         </div>
 
       </div>
