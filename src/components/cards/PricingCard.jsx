@@ -79,7 +79,7 @@ function PricingCard() {
                 {/* Button */}
                 <button
                     onClick={() => setSelected(!selected)}
-                    className="mt-7 w-full rounded-md bg-black py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
+                    className="mt-7 w-full rounded-full bg-black py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
                 >
                     {selected ? "Plan Selected ✓" : "Choose Pro"}
                 </button>

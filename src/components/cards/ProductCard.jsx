@@ -25,7 +25,7 @@ function ProductCard() {
         {/* Product Details */}
         <div className="mt-4">
           <h1 className="mt-1 text-xl font-bold">
-            Wireless Headphones
+            Apple Headphones
           </h1>
 
           <p className="mt-2 text-sm text-gray-500">
