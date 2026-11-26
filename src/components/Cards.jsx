@@ -2,6 +2,7 @@ import ProfileCard from "./cards/ProfileCard";
 import ProductCard from "./cards/ProductCard";
 import PricingCard from "./cards/PricingCard";
 import MusicCard from "./cards/MusicCard";
+import TravelCard from "./cards/TravelCard";
 
 
 function Cards() {
@@ -27,10 +28,16 @@ function Cards() {
           <PricingCard />
         </div>
 
-        {/*>Music Card */}
+        {/* Music Card */}
         <div className="flex flex-col items-center gap-4">
           <h2 className="text-2xl font-bold">Music Card</h2>
           <MusicCard />
+        </div>
+
+        {/* Travel Card */}
+        <div className="flex flex-col items-center gap-4">
+          <h2 className="text-2xl font-bold">Travel Card</h2>
+          <TravelCard />
         </div>
 
       </div>
